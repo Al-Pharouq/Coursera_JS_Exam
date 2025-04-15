@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - TravelBloom</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    .about-section {
+      padding: 150px 80px 60px;
+      height: 100vh;
+      width: 100%;
+      color: white;
+    }
+
+    .about-section h1 {
+      font-size: 48px;
+      font-weight: 900;
+      margin-bottom: 30px;
+    }
+
+    .about-section p {
+      max-width: 800px;
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 60px;
+    }
+
+    .about-section p strong {
+      color: #00e3d3;
+    }
+
+    .team-title {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    .team-cards {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+    }
+
+    .card i {
+      font-size: 50px;
+      margin-bottom: 15px;
+      color: #00e3d3;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .role {
+      background-color: #1e90ff;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 13px;
+      color: white;
+    }
+
+    .about-hero {
+      height: 100vh;
+      background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <i class="fas fa-plane-departure"></i>
+      <span>TravelBloom</span>
+    </div>
+    <nav>
+      <a href="travel_recommendation.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="#">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="about-hero">
+    <div class="about-section">
+      <h1>ABOUT US</h1>
+      <p>
+        Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services/products to our customers.
+        Our mission is to <strong>provide the best experience</strong> for people traveling to different destinations around the world.
+        <br><br>
+        Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in
+        <strong>putting our customers first and working together</strong> to achieve our goals.
+        <br>
+        Feel free to explore our website to learn more about what we offer!
+      </p>
+
+      <h2 class="team-title">Our Team</h2>
+      <div class="team-cards">
+        <div class="card">
+          <i class="fas fa-user-circle"></i>
+          <h3>John Doe</h3>
+          <p>John is responsible for overall business strategy and client experience.</p>
+          <span class="role">CEO</span>
+        </div>
+        <div class="card">
+          <i class="fas fa-user-circle"></i>
+          <h3>Celina Thomas</h3>
+          <p>Celina leads our creative and operations team for global campaigns.</p>
+          <span class="role">Team Lead</span>
+        </div>
+        <div class="card">
+          <i class="fas fa-user-circle"></i>
+          <h3>Mike Tysen</h3>
+          <p>Mike is responsible for managing delivery logistics and support services.</p>
+          <span class="role">Delivery Head</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </section>
+</body>
+</html>
